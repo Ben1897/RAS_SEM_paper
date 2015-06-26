@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: manuscript.aux
+The style file: APA-style.bst
+Database file #1: mybibfile.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty journal in elag2015
+You've used 24 entries,
+            3390 wiz_defined-function locations,
+            825 strings with 9841 characters,
+and the built_in function-call counts, 18923 in all, are:
+= -- 1411
+> -- 922
+< -- 11
++ -- 858
+- -- 258
+* -- 2028
+:= -- 2433
+add.period$ -- 73
+call.type$ -- 24
+change.case$ -- 209
+chr.to.int$ -- 24
+cite$ -- 25
+duplicate$ -- 1303
+empty$ -- 1262
+format.name$ -- 332
+if$ -- 3509
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 247
+newline$ -- 136
+num.names$ -- 96
+pop$ -- 658
+preamble$ -- 1
+purify$ -- 179
+quote$ -- 0
+skip$ -- 541
+stack$ -- 0
+substring$ -- 731
+swap$ -- 972
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 216
+warning$ -- 1
+while$ -- 112
+width$ -- 0
+write$ -- 347
+(There was 1 warning)

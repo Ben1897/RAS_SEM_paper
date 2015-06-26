@@ -1,0 +1,219 @@
+\begin{thebibliography}{24}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Argent(2004)}]{argent2004}
+\bibinfo{author}{Argent, R.~M.} (\bibinfo{year}{2004}).
+\newblock \bibinfo{title}{An overview of model integration for environmental
+  applications—components, frameworks and semantics}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{19}\/}, \bibinfo{pages}{219--234}.
+%Type = Article
+\bibitem[{Berners-Lee et~al.(2001)Berners-Lee, Hendler, Lassila
+  et~al.}]{berners2001}
+\bibinfo{author}{Berners-Lee, T.}, \bibinfo{author}{Hendler, J.},
+  \bibinfo{author}{Lassila, O.} et~al. (\bibinfo{year}{2001}).
+\newblock \bibinfo{title}{The semantic web}.
+\newblock {\it \bibinfo{journal}{Scientific american}\/},  {\it
+  \bibinfo{volume}{284}\/}, \bibinfo{pages}{28--37}.
+%Type = Article
+\bibitem[{Castronova et~al.(2013)Castronova, Goodall \& Elag}]{castronova2013}
+\bibinfo{author}{Castronova, A.~M.}, \bibinfo{author}{Goodall, J.~L.}, \&
+  \bibinfo{author}{Elag, M.~M.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Models as web services using the open geospatial
+  consortium (ogc) web processing service (wps) standard}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{41}\/}, \bibinfo{pages}{72--83}.
+%Type = Article
+\bibitem[{David et~al.(2013)David, Ascough, Lloyd, Green, Rojas, Leavesley \&
+  Ahuja}]{david2013}
+\bibinfo{author}{David, O.}, \bibinfo{author}{Ascough, J.},
+  \bibinfo{author}{Lloyd, W.}, \bibinfo{author}{Green, T.},
+  \bibinfo{author}{Rojas, K.}, \bibinfo{author}{Leavesley, G.}, \&
+  \bibinfo{author}{Ahuja, L.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{A software engineering perspective on environmental
+  modeling framework design: The object modeling system}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{39}\/}, \bibinfo{pages}{201--213}.
+%Type = Article
+\bibitem[{Elag et~al.(2015)Elag, Kumar, Marini \& Peckham}]{elag2015}
+\bibinfo{author}{Elag, M.}, \bibinfo{author}{Kumar, P.},
+  \bibinfo{author}{Marini, L.}, \& \bibinfo{author}{Peckham, S.}
+  (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{Semantic interoperability of long-tail 426 geoscience
+  resources over the web}, .
+%Type = Article
+\bibitem[{Geller \& Melton(2008)}]{geller2008}
+\bibinfo{author}{Geller, G.~N.}, \& \bibinfo{author}{Melton, F.}
+  (\bibinfo{year}{2008}).
+\newblock \bibinfo{title}{Looking forward: Applying an ecological model web to
+  assess impacts of climate change}.
+\newblock {\it \bibinfo{journal}{Biodiversity}\/},  {\it
+  \bibinfo{volume}{9}\/}, \bibinfo{pages}{79--83}.
+%Type = Inproceedings
+\bibitem[{Geller \& Turner(2007)}]{geller2007}
+\bibinfo{author}{Geller, G.~N.}, \& \bibinfo{author}{Turner, W.}
+  (\bibinfo{year}{2007}).
+\newblock \bibinfo{title}{The model web: a concept for ecological forecasting}.
+\newblock In {\it \bibinfo{booktitle}{Geoscience and Remote Sensing Symposium,
+  2007. IGARSS 2007. IEEE International}\/} (pp. \bibinfo{pages}{2469--2472}).
+\newblock \bibinfo{organization}{IEEE}.
+%Type = Article
+\bibitem[{Goodall et~al.(2011)Goodall, Robinson \& Castronova}]{goodall2011}
+\bibinfo{author}{Goodall, J.~L.}, \bibinfo{author}{Robinson, B.~F.}, \&
+  \bibinfo{author}{Castronova, A.~M.} (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{Modeling water resource systems using a
+  service-oriented computing paradigm}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{26}\/}, \bibinfo{pages}{573--582}.
+%Type = Article
+\bibitem[{Goodall et~al.(2013)Goodall, Saint, Ercan, Briley, Murphy, You,
+  DeLuca \& Rood}]{goodall2013}
+\bibinfo{author}{Goodall, J.~L.}, \bibinfo{author}{Saint, K.~D.},
+  \bibinfo{author}{Ercan, M.~B.}, \bibinfo{author}{Briley, L.~J.},
+  \bibinfo{author}{Murphy, S.}, \bibinfo{author}{You, H.},
+  \bibinfo{author}{DeLuca, C.}, \& \bibinfo{author}{Rood, R.~B.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Coupling climate and hydrological models:
+  Interoperability through web services}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{46}\/}, \bibinfo{pages}{250--259}.
+%Type = Article
+\bibitem[{Granell et~al.(2010)Granell, D{\'\i}az \& Gould}]{granell2010}
+\bibinfo{author}{Granell, C.}, \bibinfo{author}{D{\'\i}az, L.}, \&
+  \bibinfo{author}{Gould, M.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Service-oriented applications for environmental
+  models: Reusable geospatial services}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{25}\/}, \bibinfo{pages}{182--198}.
+%Type = Article
+\bibitem[{Hill et~al.(2004)Hill, DeLuca, Suarez, Da~Silva et~al.}]{hill2004}
+\bibinfo{author}{Hill, C.}, \bibinfo{author}{DeLuca, C.},
+  \bibinfo{author}{Suarez, M.}, \bibinfo{author}{Da~Silva, A.} et~al.
+  (\bibinfo{year}{2004}).
+\newblock \bibinfo{title}{The architecture of the earth system modeling
+  framework}.
+\newblock {\it \bibinfo{journal}{Computing in Science \& Engineering}\/},  {\it
+  \bibinfo{volume}{6}\/}, \bibinfo{pages}{18--28}.
+%Type = Article
+\bibitem[{Horsburgh et~al.(2009)Horsburgh, Tarboton, Piasecki, Maidment,
+  Zaslavsky, Valentine \& Whitenack}]{horsburgh2009}
+\bibinfo{author}{Horsburgh, J.~S.}, \bibinfo{author}{Tarboton, D.~G.},
+  \bibinfo{author}{Piasecki, M.}, \bibinfo{author}{Maidment, D.~R.},
+  \bibinfo{author}{Zaslavsky, I.}, \bibinfo{author}{Valentine, D.}, \&
+  \bibinfo{author}{Whitenack, T.} (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{An integrated system for publishing environmental
+  observations data}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{24}\/}, \bibinfo{pages}{879--888}.
+%Type = Article
+\bibitem[{Laniak et~al.(2013)Laniak, Olchin, Goodall, Voinov, Hill, Glynn,
+  Whelan, Geller, Quinn, Blind et~al.}]{laniak2013}
+\bibinfo{author}{Laniak, G.~F.}, \bibinfo{author}{Olchin, G.},
+  \bibinfo{author}{Goodall, J.}, \bibinfo{author}{Voinov, A.},
+  \bibinfo{author}{Hill, M.}, \bibinfo{author}{Glynn, P.},
+  \bibinfo{author}{Whelan, G.}, \bibinfo{author}{Geller, G.},
+  \bibinfo{author}{Quinn, N.}, \bibinfo{author}{Blind, M.} et~al.
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Integrated environmental modeling: a vision and
+  roadmap for the future}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{39}\/}, \bibinfo{pages}{3--23}.
+%Type = Article
+\bibitem[{Mineter et~al.(2003)Mineter, Jarvis \& Dowers}]{mineter2003}
+\bibinfo{author}{Mineter, M.~J.}, \bibinfo{author}{Jarvis, C.}, \&
+  \bibinfo{author}{Dowers, S.} (\bibinfo{year}{2003}).
+\newblock \bibinfo{title}{From stand-alone programs towards grid-aware services
+  and components: a case study in agricultural modelling with interpolated
+  climate data}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{18}\/}, \bibinfo{pages}{379--391}.
+%Type = Article
+\bibitem[{Moore \& Tindall(2005)}]{moore2005}
+\bibinfo{author}{Moore, R.~V.}, \& \bibinfo{author}{Tindall, C.~I.}
+  (\bibinfo{year}{2005}).
+\newblock \bibinfo{title}{An overview of the open modelling interface and
+  environment (the openmi)}.
+\newblock {\it \bibinfo{journal}{Environmental Science \& Policy}\/},  {\it
+  \bibinfo{volume}{8}\/}, \bibinfo{pages}{279--286}.
+%Type = Article
+\bibitem[{Nativi et~al.(2013)Nativi, Mazzetti \& Geller}]{nativi2013}
+\bibinfo{author}{Nativi, S.}, \bibinfo{author}{Mazzetti, P.}, \&
+  \bibinfo{author}{Geller, G.~N.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Environmental model access and interoperability: The
+  geo model web initiative}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{39}\/}, \bibinfo{pages}{214--228}.
+%Type = Article
+\bibitem[{Peckham(2014)}]{peckham2014CSN}
+\bibinfo{author}{Peckham, S.} (\bibinfo{year}{2014}).
+\newblock \bibinfo{title}{The csdms standard names: Cross-domain naming
+  conventions for describing process models, data sets and their associated
+  variables}.
+\newblock {\it \bibinfo{journal}{International Environmental Modelling and
+  Software Society (iEMSs), San Diego, California, USA}\/}, .
+%Type = Article
+\bibitem[{Peckham et~al.(2013)Peckham, Hutton \& Norris}]{peckham2013}
+\bibinfo{author}{Peckham, S.~D.}, \bibinfo{author}{Hutton, E.~W.}, \&
+  \bibinfo{author}{Norris, B.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{A component-based approach to integrated modeling in
+  the geosciences: The design of csdms}.
+\newblock {\it \bibinfo{journal}{Computers \& Geosciences}\/},  {\it
+  \bibinfo{volume}{53}\/}, \bibinfo{pages}{3--12}.
+%Type = Article
+\bibitem[{Priestley \& Taylor(1972)}]{priestley1972}
+\bibinfo{author}{Priestley, C.}, \& \bibinfo{author}{Taylor, R.}
+  (\bibinfo{year}{1972}).
+\newblock \bibinfo{title}{On the assessment of surface heat flux and
+  evaporation using large-scale parameters}.
+\newblock {\it \bibinfo{journal}{Monthly weather review}\/},  {\it
+  \bibinfo{volume}{100}\/}, \bibinfo{pages}{81--92}.
+%Type = Article
+\bibitem[{Richards(1931)}]{richards1931}
+\bibinfo{author}{Richards, L.~A.} (\bibinfo{year}{1931}).
+\newblock \bibinfo{title}{Capillary conduction of liquids through porous
+  mediums}.
+\newblock {\it \bibinfo{journal}{Journal of Applied Physics}\/},  {\it
+  \bibinfo{volume}{1}\/}, \bibinfo{pages}{318--333}.
+%Type = Article
+\bibitem[{Schaeffer(2008)}]{schaeffer2008}
+\bibinfo{author}{Schaeffer, B.} (\bibinfo{year}{2008}).
+\newblock \bibinfo{title}{Towards a transactional web processing service}.
+\newblock {\it \bibinfo{journal}{Proceedings of the GI-Days, M{\"u}nster}\/}, .
+%Type = Article
+\bibitem[{Schut \& Whiteside(2007)}]{schut2007opengis}
+\bibinfo{author}{Schut, P.}, \& \bibinfo{author}{Whiteside, A.}
+  (\bibinfo{year}{2007}).
+\newblock \bibinfo{title}{Opengis web processing service}.
+\newblock {\it \bibinfo{journal}{OGC project document}\/}, .
+%Type = Inproceedings
+\bibitem[{Vitolo et~al.(2012)Vitolo, Buytaert \& Reusser}]{vitolo2012}
+\bibinfo{author}{Vitolo, C.}, \bibinfo{author}{Buytaert, W.}, \&
+  \bibinfo{author}{Reusser, D.} (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{Hydrological models as web services: An
+  implementation using ogc standards}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the 10th International
+  Conference on Hydroinformatics, HIC, Hamburg, Germany}\/}.
+%Type = Incollection
+\bibitem[{Yu et~al.(2015)Yu, Car, Leadbetter, Simons \& Cox}]{yu2015}
+\bibinfo{author}{Yu, J.}, \bibinfo{author}{Car, N.~J.},
+  \bibinfo{author}{Leadbetter, A.}, \bibinfo{author}{Simons, B.~A.}, \&
+  \bibinfo{author}{Cox, S.~J.} (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{Towards linked data conventions for delivery of
+  environmental data using netcdf}.
+\newblock In {\it \bibinfo{booktitle}{Environmental Software Systems.
+  Infrastructures, Services and Applications}\/} (pp.
+  \bibinfo{pages}{102--112}).
+\newblock \bibinfo{publisher}{Springer}.
+
+\end{thebibliography}
