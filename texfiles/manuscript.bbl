@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{18}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -19,14 +19,6 @@
 \newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
   \bibinfo{volume}{19}\/}, \bibinfo{pages}{219--234}.
 %Type = Article
-\bibitem[{Berners-Lee et~al.(2001)Berners-Lee, Hendler, Lassila
-  et~al.}]{berners2001}
-\bibinfo{author}{Berners-Lee, T.}, \bibinfo{author}{Hendler, J.},
-  \bibinfo{author}{Lassila, O.} et~al. (\bibinfo{year}{2001}).
-\newblock \bibinfo{title}{The semantic web}.
-\newblock {\it \bibinfo{journal}{Scientific american}\/},  {\it
-  \bibinfo{volume}{284}\/}, \bibinfo{pages}{28--37}.
-%Type = Article
 \bibitem[{Castronova et~al.(2013)Castronova, Goodall \& Elag}]{castronova2013}
 \bibinfo{author}{Castronova, A.~M.}, \bibinfo{author}{Goodall, J.~L.}, \&
   \bibinfo{author}{Elag, M.~M.} (\bibinfo{year}{2013}).
@@ -45,13 +37,6 @@
   modeling framework design: The object modeling system}.
 \newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
   \bibinfo{volume}{39}\/}, \bibinfo{pages}{201--213}.
-%Type = Article
-\bibitem[{Elag et~al.(2015)Elag, Kumar, Marini \& Peckham}]{elag2015}
-\bibinfo{author}{Elag, M.}, \bibinfo{author}{Kumar, P.},
-  \bibinfo{author}{Marini, L.}, \& \bibinfo{author}{Peckham, S.}
-  (\bibinfo{year}{2015}).
-\newblock \bibinfo{title}{Semantic interoperability of long-tail 426 geoscience
-  resources over the web}, .
 %Type = Article
 \bibitem[{Geller \& Melton(2008)}]{geller2008}
 \bibinfo{author}{Geller, G.~N.}, \& \bibinfo{author}{Melton, F.}
@@ -106,17 +91,6 @@
 \newblock {\it \bibinfo{journal}{Computing in Science \& Engineering}\/},  {\it
   \bibinfo{volume}{6}\/}, \bibinfo{pages}{18--28}.
 %Type = Article
-\bibitem[{Horsburgh et~al.(2009)Horsburgh, Tarboton, Piasecki, Maidment,
-  Zaslavsky, Valentine \& Whitenack}]{horsburgh2009}
-\bibinfo{author}{Horsburgh, J.~S.}, \bibinfo{author}{Tarboton, D.~G.},
-  \bibinfo{author}{Piasecki, M.}, \bibinfo{author}{Maidment, D.~R.},
-  \bibinfo{author}{Zaslavsky, I.}, \bibinfo{author}{Valentine, D.}, \&
-  \bibinfo{author}{Whitenack, T.} (\bibinfo{year}{2009}).
-\newblock \bibinfo{title}{An integrated system for publishing environmental
-  observations data}.
-\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
-  \bibinfo{volume}{24}\/}, \bibinfo{pages}{879--888}.
-%Type = Article
 \bibitem[{Laniak et~al.(2013)Laniak, Olchin, Goodall, Voinov, Hill, Glynn,
   Whelan, Geller, Quinn, Blind et~al.}]{laniak2013}
 \bibinfo{author}{Laniak, G.~F.}, \bibinfo{author}{Olchin, G.},
@@ -155,14 +129,6 @@
 \newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
   \bibinfo{volume}{39}\/}, \bibinfo{pages}{214--228}.
 %Type = Article
-\bibitem[{Peckham(2014)}]{peckham2014CSN}
-\bibinfo{author}{Peckham, S.} (\bibinfo{year}{2014}).
-\newblock \bibinfo{title}{The csdms standard names: Cross-domain naming
-  conventions for describing process models, data sets and their associated
-  variables}.
-\newblock {\it \bibinfo{journal}{International Environmental Modelling and
-  Software Society (iEMSs), San Diego, California, USA}\/}, .
-%Type = Article
 \bibitem[{Peckham et~al.(2013)Peckham, Hutton \& Norris}]{peckham2013}
 \bibinfo{author}{Peckham, S.~D.}, \bibinfo{author}{Hutton, E.~W.}, \&
   \bibinfo{author}{Norris, B.} (\bibinfo{year}{2013}).
@@ -171,31 +137,31 @@
 \newblock {\it \bibinfo{journal}{Computers \& Geosciences}\/},  {\it
   \bibinfo{volume}{53}\/}, \bibinfo{pages}{3--12}.
 %Type = Article
-\bibitem[{Priestley \& Taylor(1972)}]{priestley1972}
-\bibinfo{author}{Priestley, C.}, \& \bibinfo{author}{Taylor, R.}
-  (\bibinfo{year}{1972}).
-\newblock \bibinfo{title}{On the assessment of surface heat flux and
-  evaporation using large-scale parameters}.
-\newblock {\it \bibinfo{journal}{Monthly weather review}\/},  {\it
-  \bibinfo{volume}{100}\/}, \bibinfo{pages}{81--92}.
-%Type = Article
-\bibitem[{Richards(1931)}]{richards1931}
-\bibinfo{author}{Richards, L.~A.} (\bibinfo{year}{1931}).
-\newblock \bibinfo{title}{Capillary conduction of liquids through porous
-  mediums}.
-\newblock {\it \bibinfo{journal}{Journal of Applied Physics}\/},  {\it
-  \bibinfo{volume}{1}\/}, \bibinfo{pages}{318--333}.
-%Type = Article
 \bibitem[{Schaeffer(2008)}]{schaeffer2008}
 \bibinfo{author}{Schaeffer, B.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Towards a transactional web processing service}.
 \newblock {\it \bibinfo{journal}{Proceedings of the GI-Days, M{\"u}nster}\/}, .
 %Type = Article
-\bibitem[{Schut \& Whiteside(2007)}]{schut2007opengis}
-\bibinfo{author}{Schut, P.}, \& \bibinfo{author}{Whiteside, A.}
+\bibitem[{Swain et~al.(2015)Swain, Latu, Christensen, Jones, Nelson, Ames \&
+  Williams}]{swain2015}
+\bibinfo{author}{Swain, N.~R.}, \bibinfo{author}{Latu, K.},
+  \bibinfo{author}{Christensen, S.~D.}, \bibinfo{author}{Jones, N.~L.},
+  \bibinfo{author}{Nelson, E.~J.}, \bibinfo{author}{Ames, D.~P.}, \&
+  \bibinfo{author}{Williams, G.~P.} (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{A review of open source software solutions for
+  developing water resources web applications}.
+\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
+  \bibinfo{volume}{67}\/}, \bibinfo{pages}{108--117}.
+%Type = Inproceedings
+\bibitem[{Valentine et~al.(2007)Valentine, Zaslavsky, Whitenack \&
+  Maidment}]{valentine2007}
+\bibinfo{author}{Valentine, D.}, \bibinfo{author}{Zaslavsky, I.},
+  \bibinfo{author}{Whitenack, T.}, \& \bibinfo{author}{Maidment, D.~R.}
   (\bibinfo{year}{2007}).
-\newblock \bibinfo{title}{Opengis web processing service}.
-\newblock {\it \bibinfo{journal}{OGC project document}\/}, .
+\newblock \bibinfo{title}{Design and implementation of cuahsi waterml and
+  wateroneflow web services}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the Geoinformatics 2007
+  Conference, San Diego, California}\/} (pp. \bibinfo{pages}{5--3}).
 %Type = Inproceedings
 \bibitem[{Vitolo et~al.(2012)Vitolo, Buytaert \& Reusser}]{vitolo2012}
 \bibinfo{author}{Vitolo, C.}, \bibinfo{author}{Buytaert, W.}, \&
@@ -204,16 +170,5 @@
   implementation using ogc standards}.
 \newblock In {\it \bibinfo{booktitle}{Proceedings of the 10th International
   Conference on Hydroinformatics, HIC, Hamburg, Germany}\/}.
-%Type = Incollection
-\bibitem[{Yu et~al.(2015)Yu, Car, Leadbetter, Simons \& Cox}]{yu2015}
-\bibinfo{author}{Yu, J.}, \bibinfo{author}{Car, N.~J.},
-  \bibinfo{author}{Leadbetter, A.}, \bibinfo{author}{Simons, B.~A.}, \&
-  \bibinfo{author}{Cox, S.~J.} (\bibinfo{year}{2015}).
-\newblock \bibinfo{title}{Towards linked data conventions for delivery of
-  environmental data using netcdf}.
-\newblock In {\it \bibinfo{booktitle}{Environmental Software Systems.
-  Infrastructures, Services and Applications}\/} (pp.
-  \bibinfo{pages}{102--112}).
-\newblock \bibinfo{publisher}{Springer}.
 
 \end{thebibliography}

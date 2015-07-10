@@ -5,46 +5,44 @@ The style file: APA-style.bst
 Database file #1: mybibfile.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Warning--empty journal in elag2015
-You've used 24 entries,
+You've used 18 entries,
             3390 wiz_defined-function locations,
-            825 strings with 9841 characters,
-and the built_in function-call counts, 18923 in all, are:
-= -- 1411
-> -- 922
-< -- 11
-+ -- 858
-- -- 258
-* -- 2028
-:= -- 2433
-add.period$ -- 73
-call.type$ -- 24
-change.case$ -- 209
-chr.to.int$ -- 24
-cite$ -- 25
-duplicate$ -- 1303
-empty$ -- 1262
-format.name$ -- 332
-if$ -- 3509
+            789 strings with 8906 characters,
+and the built_in function-call counts, 14976 in all, are:
+= -- 1112
+> -- 763
+< -- 7
++ -- 722
+- -- 213
+* -- 1627
+:= -- 1903
+add.period$ -- 55
+call.type$ -- 18
+change.case$ -- 165
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 1003
+empty$ -- 974
+format.name$ -- 269
+if$ -- 2772
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 247
-newline$ -- 136
-num.names$ -- 96
-pop$ -- 658
+missing$ -- 195
+newline$ -- 106
+num.names$ -- 72
+pop$ -- 516
 preamble$ -- 1
-purify$ -- 179
+purify$ -- 141
 quote$ -- 0
-skip$ -- 541
+skip$ -- 427
 stack$ -- 0
-substring$ -- 731
-swap$ -- 972
+substring$ -- 582
+swap$ -- 777
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 216
-warning$ -- 1
-while$ -- 112
+type$ -- 162
+warning$ -- 0
+while$ -- 88
 width$ -- 0
-write$ -- 347
-(There was 1 warning)
+write$ -- 266
