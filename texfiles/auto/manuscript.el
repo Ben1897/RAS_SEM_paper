@@ -25,8 +25,7 @@
     "cleveref"
     "pdflscape")
    (LaTeX-add-labels
-    "semanticInconsistency"
-    "tightLooseCouple")
+    "comparison")
    (LaTeX-add-bibliographies
     "mybibfile")))
 

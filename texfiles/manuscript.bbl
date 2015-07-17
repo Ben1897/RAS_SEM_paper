@@ -1,4 +1,4 @@
-\begin{thebibliography}{18}
+\begin{thebibliography}{22}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -19,6 +19,14 @@
 \newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
   \bibinfo{volume}{19}\/}, \bibinfo{pages}{219--234}.
 %Type = Article
+\bibitem[{Berners-Lee et~al.(2001)Berners-Lee, Hendler, Lassila
+  et~al.}]{berners2001}
+\bibinfo{author}{Berners-Lee, T.}, \bibinfo{author}{Hendler, J.},
+  \bibinfo{author}{Lassila, O.} et~al. (\bibinfo{year}{2001}).
+\newblock \bibinfo{title}{The semantic web}.
+\newblock {\it \bibinfo{journal}{Scientific american}\/},  {\it
+  \bibinfo{volume}{284}\/}, \bibinfo{pages}{28--37}.
+%Type = Article
 \bibitem[{Castronova et~al.(2013)Castronova, Goodall \& Elag}]{castronova2013}
 \bibinfo{author}{Castronova, A.~M.}, \bibinfo{author}{Goodall, J.~L.}, \&
   \bibinfo{author}{Elag, M.~M.} (\bibinfo{year}{2013}).
@@ -27,16 +35,27 @@
 \newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
   \bibinfo{volume}{41}\/}, \bibinfo{pages}{72--83}.
 %Type = Article
-\bibitem[{David et~al.(2013)David, Ascough, Lloyd, Green, Rojas, Leavesley \&
-  Ahuja}]{david2013}
-\bibinfo{author}{David, O.}, \bibinfo{author}{Ascough, J.},
-  \bibinfo{author}{Lloyd, W.}, \bibinfo{author}{Green, T.},
-  \bibinfo{author}{Rojas, K.}, \bibinfo{author}{Leavesley, G.}, \&
-  \bibinfo{author}{Ahuja, L.} (\bibinfo{year}{2013}).
-\newblock \bibinfo{title}{A software engineering perspective on environmental
-  modeling framework design: The object modeling system}.
-\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
-  \bibinfo{volume}{39}\/}, \bibinfo{pages}{201--213}.
+\bibitem[{Elag et~al.(2015)Elag, Kumar, Marini \& Peckham}]{elag2015}
+\bibinfo{author}{Elag, M.}, \bibinfo{author}{Kumar, P.},
+  \bibinfo{author}{Marini, L.}, \& \bibinfo{author}{Peckham, S.}
+  (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{Semantic interoperability of long-tail 426 geoscience
+  resources over the web}, .
+%Type = Book
+\bibitem[{Erl(2004)}]{erl2004}
+\bibinfo{author}{Erl, T.} (\bibinfo{year}{2004}).
+\newblock {\it \bibinfo{title}{Service-oriented architecture: a field guide to
+  integrating XML and web services}\/}.
+\newblock \bibinfo{publisher}{Prentice Hall PTR}.
+%Type = Techreport
+\bibitem[{Fielding et~al.(1999)Fielding, Gettys, Mogul, Frystyk, Masinter,
+  Leach \& Berners-Lee}]{fielding1999}
+\bibinfo{author}{Fielding, R.}, \bibinfo{author}{Gettys, J.},
+  \bibinfo{author}{Mogul, J.}, \bibinfo{author}{Frystyk, H.},
+  \bibinfo{author}{Masinter, L.}, \bibinfo{author}{Leach, P.}, \&
+  \bibinfo{author}{Berners-Lee, T.} (\bibinfo{year}{1999}).
+\newblock {\it \bibinfo{title}{Hypertext transfer protocol--HTTP/1.1}\/}.
+\newblock \bibinfo{type}{Technical Report}.
 %Type = Article
 \bibitem[{Geller \& Melton(2008)}]{geller2008}
 \bibinfo{author}{Geller, G.~N.}, \& \bibinfo{author}{Melton, F.}
@@ -91,18 +110,13 @@
 \newblock {\it \bibinfo{journal}{Computing in Science \& Engineering}\/},  {\it
   \bibinfo{volume}{6}\/}, \bibinfo{pages}{18--28}.
 %Type = Article
-\bibitem[{Laniak et~al.(2013)Laniak, Olchin, Goodall, Voinov, Hill, Glynn,
-  Whelan, Geller, Quinn, Blind et~al.}]{laniak2013}
-\bibinfo{author}{Laniak, G.~F.}, \bibinfo{author}{Olchin, G.},
-  \bibinfo{author}{Goodall, J.}, \bibinfo{author}{Voinov, A.},
-  \bibinfo{author}{Hill, M.}, \bibinfo{author}{Glynn, P.},
-  \bibinfo{author}{Whelan, G.}, \bibinfo{author}{Geller, G.},
-  \bibinfo{author}{Quinn, N.}, \bibinfo{author}{Blind, M.} et~al.
-  (\bibinfo{year}{2013}).
-\newblock \bibinfo{title}{Integrated environmental modeling: a vision and
-  roadmap for the future}.
-\newblock {\it \bibinfo{journal}{Environmental Modelling \& Software}\/},  {\it
-  \bibinfo{volume}{39}\/}, \bibinfo{pages}{3--23}.
+\bibitem[{Huhns \& Singh(2005)}]{huhns2005}
+\bibinfo{author}{Huhns, M.~N.}, \& \bibinfo{author}{Singh, M.~P.}
+  (\bibinfo{year}{2005}).
+\newblock \bibinfo{title}{Service-oriented computing: Key concepts and
+  principles}.
+\newblock {\it \bibinfo{journal}{Internet Computing, IEEE}\/},  {\it
+  \bibinfo{volume}{9}\/}, \bibinfo{pages}{75--81}.
 %Type = Article
 \bibitem[{Mineter et~al.(2003)Mineter, Jarvis \& Dowers}]{mineter2003}
 \bibinfo{author}{Mineter, M.~J.}, \bibinfo{author}{Jarvis, C.}, \&
@@ -120,6 +134,15 @@
   environment (the openmi)}.
 \newblock {\it \bibinfo{journal}{Environmental Science \& Policy}\/},  {\it
   \bibinfo{volume}{8}\/}, \bibinfo{pages}{279--286}.
+%Type = Inproceedings
+\bibitem[{Mulligan \& Gra{\v{c}}anin(2009)}]{mulligan2009}
+\bibinfo{author}{Mulligan, G.}, \& \bibinfo{author}{Gra{\v{c}}anin, D.}
+  (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{A comparison of soap and rest implementations of a
+  service based interaction independence middleware framework}.
+\newblock In {\it \bibinfo{booktitle}{Simulation Conference (WSC), Proceedings
+  of the 2009 Winter}\/} (pp. \bibinfo{pages}{1423--1432}).
+\newblock \bibinfo{organization}{IEEE}.
 %Type = Article
 \bibitem[{Nativi et~al.(2013)Nativi, Mazzetti \& Geller}]{nativi2013}
 \bibinfo{author}{Nativi, S.}, \bibinfo{author}{Mazzetti, P.}, \&
