@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 JUL 2015 15:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 JUL 2015 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -409,36 +409,71 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<../figures/comparison.pdf, id=60, 894.34125pt x 259.97125pt>
+<../figures/comparison.pdf, id=76, 894.34125pt x 259.97125pt>
 File: ../figures/comparison.pdf Graphic file (type pdf)
 
 <use ../figures/comparison.pdf>
 Package pdftex.def Info: ../figures/comparison.pdf used on input line 48.
 (pdftex.def)             Requested size: 447.16953pt x 129.9853pt.
  [2 <../figures/comparison.pdf>] [3] [4]
-(./manuscript.bbl
+<../figures/geosemantic.pdf, id=258, 781.92125pt x 494.84875pt>
+File: ../figures/geosemantic.pdf Graphic file (type pdf)
+
+<use ../figures/geosemantic.pdf>
+Package pdftex.def Info: ../figures/geosemantic.pdf used on input line 80.
+(pdftex.def)             Requested size: 390.95967pt x 247.42377pt.
+ [5] [6 <../figures/geosemantic.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+
+<../figures/RASWorkflow.pdf, id=327, 585.18625pt x 307.1475pt>
+File: ../figures/RASWorkflow.pdf Graphic file (type pdf)
+
+<use ../figures/RASWorkflow.pdf>
+Package pdftex.def Info: ../figures/RASWorkflow.pdf used on input line 103.
+(pdftex.def)             Requested size: 351.11446pt x 184.28992pt.
+
+<../figures/RASIO.pdf, id=328, 469.755pt x 336.25626pt>
+File: ../figures/RASIO.pdf Graphic file (type pdf)
+
+<use ../figures/RASIO.pdf>
+Package pdftex.def Info: ../figures/RASIO.pdf used on input line 110.
+(pdftex.def)             Requested size: 281.85518pt x 201.75531pt.
+ [7 <../figures/RASWorkflow.pdf>] [8 <../figures/RASIO.pdf>] <../figures/RASCom
+ponents.pdf, id=444, 381.425pt x 268.00125pt>
+File: ../figures/RASComponents.pdf Graphic file (type pdf)
+
+<use ../figures/RASComponents.pdf>
+Package pdftex.def Info: ../figures/RASComponents.pdf used on input line 127.
+(pdftex.def)             Requested size: 266.99567pt x 187.59958pt.
+ (./manuscript.bbl
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
- [5])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+ [9 <../figures/RASComponents.pdf>] [10])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (./manuscript.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 1DC23E5D66F0ABF6ECB95F273B431F84;267.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
+(rerunfilecheck)             Checksum: 2F43C1DF991ACBA6A5CB2DCF587EFCA1;512.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
  ) 
 Here is how much of TeX's memory you used:
- 8012 strings out of 493089
- 128368 string characters out of 6134842
+ 8086 strings out of 493089
+ 129627 string characters out of 6134842
  240145 words of memory out of 5000000
- 11380 multiletter control sequences out of 15000+600000
+ 11423 multiletter control sequences out of 15000+600000
  8274 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,8n,34p,1550b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,8n,34p,1550b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
@@ -446,16 +481,17 @@ sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on manuscript.pdf (6 pages, 224009 bytes).
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on manuscript.pdf (11 pages, 415624 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -69,6 +69,66 @@ In geoscience, much work has been done for the standardization of data transfere
 PyWPS\footnote{http://pywps.wald.intevation.org/}, a Pythoon package for implementing WPS, is utilized for servicing models. The advantage is that PyWPS provides a module for modeler to apply WPS standard directly on any model. Set up on a specific web server (e.g., Apache\footnote{http://httpd.apache.org/} and Nginx\footnote{http://nginx.org/}), PyWPS is able to expose models as web services applying WPS specification.
 
 
+\section{RAS Architecture}The Resource Alignment Service (RAS) is a product of GeoSemantic framework \citep{elag2015}, a project aiming to resolve the semantic interoperability issue of various resources based on semantic web technology \citep{berners2001}. In this section, we first briefly introduce the GeoSemantic framework and how the RAS works under this framework. Then, the workflow of the RAS is presented, including the trigger (or the request inputs), utilizing information from GeoSemantic framework, passing information through its inherent aligning functions and returning back the alignment result. The components of the RAS are detailed at last.
+
+\subsection{GeoSemantic Framework}GeoSemantic framework is an ongoing project whose goal is to allow the structured information seamlessly exchanging between various resources by achieving their semantic interoperability \citep{elag2015}. Through semantic web technology, GeoSemantic enhances the capability of finding resources by searching a standard names grpah, discovering the implicit relationships between resources by reasoning, and annotating a new or an existing resource by adding semantic tags. A general architecture of it is presented in Figure \ref{geosemantic}, with emphasis on RAS's functionality.
+
+As emphasized in Figure \ref{geosemantic}, RAS ensures the semantic consistency of information flowing between various web serviced resources. For example, align data stored in Clowder\footnote{https://clowder.ncsa.illinois.edu/clowder/} (an online resource collections developed under GeoSemantic framework) to the inputs of a web serviced model. In this study, we focus on the utilization of RAS in coupling the WPS-implemented models to help decentralized integration of web serviced models.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=0.5]{../figures/geosemantic.pdf}
+\caption{The architecture of GeoSemantic framework. Four web services are developed to allow users to import or ingest the standard names into the triple store, discover the inherent relationships between the resources from the triple store, annotate metadata of resources semantically and align two heterogeneous resources.}
+\label{geosemantic}
+\end{figure}
+
+\subsection{RAS Workflow}RAS is developed as a service being used for ensuring the semantic consistency of information exchanging between online resources. The entire functionality of it includes semantic mediation of variable names, conversion of mismatched units and file type, and tempo-spatial alignment. A Python web application package, Flask\footnote{http://flask.pocoo.org/}, is utilized to set up the service for RAS.
+
+A basic workflow of RAS is presented in Figure \ref{rasWorkflow}. Through HTTP POST method, RAS takes the metadata of two lists of variables, the formats of the two lists, and the values of the variable list to be aligned as posted data. The response of RAS is also in JSON format with two fields: \textit{aligned} and \textit{unaligned}. \textit{aligned} field includes all the variables being aligned successfully, with the aligned values. Similarly, the rest variables which fail in the alignment are reported in \textit{unaligned}, with their failure reasons.
+
+During the alignment process, RAS first parses the incoming metadata of the two lists according to the provided list formats. The current supported list formats are the XML-based response from the WPS's DescribeProcess call and a JSON-based variable template designed for the metadata of random data or varaible from non WPS-implemented models. The JSON-based variable template will be described in the next section. Then, the two variable lists are resorted according to the criteria that whether a variable in one list is able to be ''matched'' with a variable in another list through semantic mediation in the standard name graph. The ''matched'' pairs of variables are used for further alignment, while the ''unmatched'' variables are classified as the \textit{unaligned} in RAS's response. The semantic consistency of each pair of the ''matched'' variables is checked in terms of the units, the value type, the temporal and spatial property and the file type. The aligning will be conducted if there is any inconsistency based on the given variabl values. If the alignment of one pair of variable fail (e.g., conversion from one file type to another is nor supported), then the variables are grouped in the \textit{unaligned} with the reason reported.
+
+A simple applicaiton situation is, for example, that the outputs of a WPS-implemented model A need to be used as the inputs of another WPS-implemented model B. The metadata of the two models can be obtained through the WPS DescribeProcess request, say \textit{metadata\_A} and \textit{metadata\_B} respectively. The information, which is posted to RAS's service, then includes the following, as shown in Figure \ref{rasWPSIO}:
+\begin{itemize}
+\item the metadata of model A: \textit{metadata\_A}
+\item the format of \textit{metadata\_A}: ''wps output''
+\item the metadata of model B: \textit{metadata\_B}
+\item the format of \textit{metadata\_B}: ''wps input''
+\item the values or URIs of model A's outputs
+\end{itemize}
+After the semantic consistency check and the alignment process, RAS will response back to the client with \textit{aligned} and \textit{unaligned} information in JSON format.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=0.6]{../figures/RASWorkflow.pdf}
+\caption{The workflow of RAS.}
+\label{rasWorkflow}
+\end{figure}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=0.6]{../figures/RASIO.pdf}
+\caption{An example of the request and the response information of RAS for aligning between the outputs of WPS-implemented model A and the inputs of WPS-implemented model B. (Note: the bold texts are implicit information.)}
+\label{rasWPSIO}
+\end{figure}
+
+\subsection{RAS Components} Figure \ref{RASComponents} presents the RAS's components used for the alignment between two lists of variables in terms of  variable name, variable unit, variable value type, file type, variable temporal and spatial properties. The alignment is carried out for each pair of variables, say, aligning from variable I to variable II.
+
+\paragraph{variable name} The semantic mediation of two variable names is conducted through either a SKOS-based search or a string-based search. SKOS-based search is applied for variable names in a form of URI. The procedures are (1) finding all the matched (i.e., \textit{skos:exactMatch} or \textit{skos:closeMatch}) variable names for variable I by querying the standard names graph by using SPARQL\footnote{http://www.w3.org/TR/rdf-sparql-query/}, an Resource Description Framework (RDF) query language; (2) checking whether variable II is in the list of the matched variables of variable I (return matched if true). \textit{rdflib}\footnote{https://github.com/RDFLib/rdflib}, a Python library for working with RDF, is utilized for RDF querying. In addition, if the types of variable names are string, then the mediation is carried out based on string-based search. The variable name in string is first transformed in a URI format by assigning it with a model name space, and then SKOS-based search is used for semantic mediation.
+
+\paragraph{variable unit} Similar to the alignment of two variable names, the conversion of two variable units is based on UDUNITS conversion and SWEET unit conversion, according to the types of units: string and URI, respectively. If the unit types are string, UDUNITS\footnote{http://www.unidata.ucar.edu/software/udunits/} (a package support converting units of physical quantities) is employed to perform the conversion. On the other hand, a unit ontology of Semantic Web for Earth and Environmental Terminology (SWEET) ontologies is applied in the case that both the unit formats are URI. 
+
+\paragraph{variable type} The alignment of the variable types of two variables is based on both the value and file types conversion. The value type alignment is straightforward through type conversion in Python (e.g., from \textit{float} to \textit{integer}). In terms of conversion in file types, currently the supported file types are comma separated value (CSV) files and Network Common Data Form (NetCDF\footnote{http://www.unidata.ucar.edu/software/netcdf/}) files, with the header information in the file if any. 
+
+\paragraph{variable time horizon} The temporal property alignment of two variables is conducted based on linear temporal interpolation, given the start time, the end time and the time step of each variable. Through temporal interpolation approach, the actual time period of the data of variable II aligned from that of variable I is the intersection of the given time periods of the two variables. It means if the time periods (from the start time to the end time) of the two variables do not overlap, there is no data interpolated for variable II. 
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[scale=0.7]{../figures/RASComponents} 
+\caption{The components of the Resource Alignment Service (RAS).}
+\label{RASComponents}
+\end{figure}
+
 \section*{References}
 
 \bibliography{mybibfile}
